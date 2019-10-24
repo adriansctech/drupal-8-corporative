@@ -16,4 +16,13 @@ bootstrap:
     - core/jquery
     - core/drupal
     - core/drupalSettings
+owl-carousel:
+  js:
+    libraries/owl-carousel/owl.carousel.js: {}
+  css:
+    component:
+      libraries/owl-carousel/owl.carousel.min.css: {}
+      libraries/owl-carousel/owl.theme.default.min.css: {}
+  dependencies:
+    - core/jquery
 
